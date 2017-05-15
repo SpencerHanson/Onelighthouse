@@ -1,0 +1,16 @@
+current directory: /home/spencer/Projects/Onelighthouse/vendor/cache/ruby/2.2.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+/home/spencer/.rvm/rubies/ruby-2.2.4/bin/ruby -r ./siteconf20170515-16884-qqcz7a.rb extconf.rb
+
+current directory: /home/spencer/Projects/Onelighthouse/vendor/cache/ruby/2.2.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target 'clean'.  Stop.
+
+current directory: /home/spencer/Projects/Onelighthouse/vendor/cache/ruby/2.2.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /home/spencer/Projects/Onelighthouse/vendor/cache/ruby/2.2.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.

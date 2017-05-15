@@ -1,0 +1,5 @@
+current directory: /home/spencer/Projects/Onelighthouse/vendor/cache/ruby/2.3.0/gems/sqlite3-1.3.11/ext/sqlite3
+/usr/bin/ruby2.3 -r ./siteconf20170515-8413-mf58zz.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+extconf failed, exit code 1

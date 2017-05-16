@@ -1,25 +1,34 @@
-%h1
-	OneLightHouse
+.title
+  OneLightHouse
+  %p
+    A website by Spencer Hanson
 
-%h1 
-	Games
-%p
-	- @games.each do |game|
-		%p
-			.title
-				= game.title
-			.summary
-				= game.summary	
 
-%p
-	= form_for :game, url: games_path do |f|
-		%p
-			=f.label :title
-			%br
-			= f.text_field :title
-		%p
-			= f.label :summary
-			%br
-			= f.text_area :summary
-		%p
-			= f.submit
+%div.game-header
+  Games
+%table.table.table-hover.games-list 
+  %thead
+    %tr
+      %th Title
+      %th Summary
+  %tbody
+    - @games.each do |game|
+      %tr
+        %td= game.title
+        %td= game.summary 
+
+
+.game-form
+  = form_for :game, url: games_path do |f|
+    %p
+      =f.label :title
+      %br
+      = f.text_field :title
+    %p
+      = f.label :summary
+      %br
+      = f.text_area :summary
+    %p
+      = f.submit
+
+

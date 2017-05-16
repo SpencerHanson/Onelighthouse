@@ -6,7 +6,7 @@ class GamesController < ApplicationController
 
 	def create
 		@game = Game.create(game_params)
-		render "index"
+		redirect_to action: "index"
 	end
 
 	private

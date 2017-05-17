@@ -1,8 +1,5 @@
-.title
-  OneLightHouse
-  %p
-    A website by Spencer Hanson
-
+= content_for(:sidebar) do
+  = render partial: "layouts/sidebar"
 
 %div.game-header
   Games
@@ -12,7 +9,7 @@
       %th Title
       %th Summary
   %tbody
-    - @games.each do |game|
+    - @games.limit(10).order('created_at desc').each do |game|
       %tr
         %td= game.title
         %td= game.summary 

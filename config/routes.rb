@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   resources :games
 
-  root 'games#index'
+  root 'welcome#index'
 end

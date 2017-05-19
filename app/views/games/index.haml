@@ -1,6 +1,3 @@
-= content_for(:sidebar) do
-  = render partial: "layouts/sidebar"
-
 %div.game-header
   Games
 %table.table.table-hover.games-list 
@@ -13,19 +10,4 @@
       %tr
         %td= game.title
         %td= game.summary 
-
-
-.game-form
-  = form_for :game, url: games_path do |f|
-    %p
-      =f.label :title
-      %br
-      = f.text_field :title
-    %p
-      = f.label :summary
-      %br
-      = f.text_area :summary
-    %p
-      = f.submit
-
 

@@ -5,9 +5,10 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
-  = render 'layouts/header'
-  %body
-    = yield :sidebar
-    = yield
-  = render 'layouts/footer'
+    = render 'layouts/header'
+    = render 'layouts/sidebar'
+    %body.main
+      / = yield :sidebar
+      = yield
+    = render 'layouts/footer'
 

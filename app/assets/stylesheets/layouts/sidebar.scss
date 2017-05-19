@@ -1,0 +1,30 @@
+.sidebar {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #A9A9A9;
+  width: 10%;
+
+}
+
+.sidebar_back {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 10%;
+  background: #A9A9A9;
+  position: absolute;
+}
+
+.nav>li>a {
+  text-align: center;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: #DDDDDD;
+  color: black;
+}

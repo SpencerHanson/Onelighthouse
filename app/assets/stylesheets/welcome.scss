@@ -1,4 +1,23 @@
 .about-me {
   text-align: center;
   font-style: italic;
+  margin-top: 45px;
+  margin-left: 10%;
+  overflow: hidden;
+  font-size: 14px;
 }
+.self-image {
+  img {
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+.description {
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+

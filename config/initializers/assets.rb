@@ -12,3 +12,4 @@ Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += %w( lighthouse.jpg )
 Rails.application.config.assets.precompile += %w( github.png )
+Rails.application.config.assets.precompile += %w( self-portrait.jpg )

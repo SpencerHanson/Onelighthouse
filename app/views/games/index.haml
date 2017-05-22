@@ -4,10 +4,12 @@
   %thead
     %tr
       %th Title
-      %th Summary
+      %th Score
+      %th Review
   %tbody
     - @games.limit(10).order('created_at desc').each do |game|
       %tr
-        %td= game.title
-        %td= game.summary 
+        %td= game.name
+        %td= game.score
+        %td= link_to "See Full Review", game_path(game.id) 
 

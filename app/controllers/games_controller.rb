@@ -9,10 +9,15 @@ class GamesController < ApplicationController
 		redirect_to action: "index"
 	end
 
+	def show
+		@game = Game.find(params[:id])
+	end
+
 	private
 
 	def game_params
-		params.require(:game).permit(:title, :summary)
+		params.require(:game).permit(:name, :score, :review)
 	end
+
 
 end

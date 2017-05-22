@@ -1,3 +1,17 @@
 == README
 
-After cloning the directory, just simply run a `rake db:seed`. Then spin up the server with a `rails s` and then you're good to go!
+Things you may want to cover:
+
+* Clone the repo
+
+* Run a bundle install
+
+* Seed the db with some fake data with rake db:seed
+
+* Run the server with rails s
+
+* You're good to go!
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.

@@ -10,6 +10,8 @@ The set-up is extremely straight forward
 
 * Run the server with <tt>rails s</tt>
 
+* Navigate to http://localhost:3000/ in your browser
+
 * You're good to go!
 
 

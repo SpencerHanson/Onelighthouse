@@ -1,17 +1,16 @@
 == README
 
-Things you may want to cover:
+The set-up is extremely straight forward
 
 * Clone the repo
 
-* Run a bundle install
+* Run a <tt>bundle install</tt>
 
-* Seed the db with some fake data with rake db:seed
+* Seed the db with some fake data with <tt>rake db:seed</tt>
 
-* Run the server with rails s
+* Run the server with <tt>rails s</tt>
 
 * You're good to go!
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+

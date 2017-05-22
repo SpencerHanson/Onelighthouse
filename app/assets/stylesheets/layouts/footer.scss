@@ -3,8 +3,11 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #FF3B3F;
   padding-top: 30px;
+  background-image: url('/assets/lighthouse.jpg');
+  background-size: cover;
+  background-position: 0px 325px;
+  background-attachment: fixed;
 }
 
 .content {
